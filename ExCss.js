@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './folha.module.css';
+import imgEx from './img/imgEx.png';
 
 class ExCss extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class ExCss extends React.Component {
     const imgEx = {
          width: 46,
          height: 44,
-         background: url('img_navsprites.gif')
+       
     };
     const myBord = {
        borderStyle: 'solid'
@@ -24,6 +25,7 @@ class ExCss extends React.Component {
       <p style={{color:'red'}} > Add seu estilo</p>
 
        <h3 style={myBord} > Chamada Folha de Estilo </h3>
+       <img src={imgEx} alt="logo" />
       </div>
     );
   }
