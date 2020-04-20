@@ -21,8 +21,7 @@ class ExCss extends React.Component {
       <p style={{color:'red'}} > Add seu estilo</p>
 
        <h3 style={myBord} > Chamada Folha de Estilo </h3>
-       <img src='imgEx2.jpg' alt="logo" />
-       <img src="paris.jpg" alt="Paris" style="width:150px" />
+       <img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Paris" style={{width:200}} />
       </div>
     );
   }
